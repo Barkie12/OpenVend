@@ -4,7 +4,7 @@
 
 **Self-hosted store CMS for digital goods — with a storefront you can make your own.**
 
-[🌐 GitHub](https://github.com/Barkie12/OpenVend) • [💬 Contact](#hosting--custom-work)
+[🌐 OpenVend Website](https://openvend.space) • [🌐 OpenVend Example](https://example.openvend.space) • [💬 Contact](#hosting--custom-work)
 
 ![GitHub stars](https://img.shields.io/github/stars/Barkie12/OpenVend?style=flat&logo=github)
 ![Last commit](https://img.shields.io/github/last-commit/Barkie12/OpenVend)
