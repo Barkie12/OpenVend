@@ -191,7 +191,7 @@ Reach out on Discord (**`barkiegg`**) or by e-mail at [barkie.media@gmail.com](m
 
 ## Contributing
 
-Issues and PRs are welcome. Run `npm run typecheck` and `npm run lint` before submitting; both must pass clean.
+You can contribute and donate to the project here: https://ko-fi.com/barkiedev
 
 ## License
 
