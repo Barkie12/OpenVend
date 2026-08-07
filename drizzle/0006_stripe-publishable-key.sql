@@ -1,0 +1,1 @@
+ALTER TABLE "shops" ADD COLUMN "stripe_publishable_key" text;

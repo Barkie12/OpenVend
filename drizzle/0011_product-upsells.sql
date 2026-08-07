@@ -1,0 +1,1 @@
+ALTER TABLE "products" ADD COLUMN "upsell_product_ids" jsonb DEFAULT '[]'::jsonb NOT NULL;
