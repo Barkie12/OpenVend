@@ -41,11 +41,17 @@ export function TwoFactorCard({ initialEnabled }: TwoFactorCardProps) {
       setIsBusy(false);
       return;
     }
-    const qrCodeDataUrl = await QRCode.toDataURL(enableResult.data.totpURI, {
+    const enrollment = enableResult.data;
+    if (enrollment.method !== "totp") {
+      toast.error("Could not start authenticator app enrollment");
+      setIsBusy(false);
+      return;
+    }
+    const qrCodeDataUrl = await QRCode.toDataURL(enrollment.totpURI, {
       width: QR_SIZE_PX,
       margin: 1,
     });
-    setPendingEnrollment({ qrCodeDataUrl, backupCodes: enableResult.data.backupCodes });
+    setPendingEnrollment({ qrCodeDataUrl, backupCodes: enrollment.backupCodes });
     setIsBusy(false);
   }
 

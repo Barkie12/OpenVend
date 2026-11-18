@@ -18,7 +18,7 @@
     "@radix-ui/react-checkbox": "^1.3.11",
     "@stripe/react-stripe-js": "^6.8.0",
     "@stripe/stripe-js": "^9.13.0",
-    "better-auth": "^1.6.26",
+    "better-auth": "^1.7.26",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "dotenv": "^17.4.2",
