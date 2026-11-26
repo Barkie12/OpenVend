@@ -1,7 +1,6 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "standalone",
   images: {
     // Product images are uploaded at runtime and served from the data volume;
     // skipping the optimizer keeps the Docker image free of native deps.
